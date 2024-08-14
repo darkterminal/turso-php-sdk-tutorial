@@ -1,13 +1,7 @@
 {
-  "repositories": [
-    {
-      "type": "path",
-      "url": "/home/darkterminal/fs-museum/DARK-STATION/Workspaces/turso/turso-http"
-    }
-  ],
   "require": {
-    "darkterminal/turso-http": "0.5.1",
     "paragonie/sodium_compat": "^2.0",
-    "lcobucci/jwt": "^5.3"
+    "lcobucci/jwt": "^5.3",
+    "darkterminal/turso-http": "^2.3"
   }
 }

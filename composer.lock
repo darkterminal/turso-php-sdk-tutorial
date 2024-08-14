@@ -4,15 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ba9c15d20663ab1fa94a3acb1bced955",
+    "content-hash": "fae1a287dd0280b419dfb21644fa7db3",
     "packages": [
         {
             "name": "darkterminal/turso-http",
-            "version": "v0.5.1",
+            "version": "v2.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/darkterminal/turso-http.git",
+                "reference": "6fbe55d9a0b7bdf50d5be907e8f70036ed277e01"
+            },
             "dist": {
-                "type": "path",
-                "url": "/home/darkterminal/fs-museum/DARK-STATION/Workspaces/turso/turso-http",
-                "reference": "dc2837765a9233f06d38acfd57b89b8fba37d140"
+                "type": "zip",
+                "url": "https://api.github.com/repos/darkterminal/turso-http/zipball/6fbe55d9a0b7bdf50d5be907e8f70036ed277e01",
+                "reference": "6fbe55d9a0b7bdf50d5be907e8f70036ed277e01",
+                "shasum": ""
             },
             "require": {
                 "php": ">=8.1",
@@ -23,18 +29,14 @@
             },
             "type": "library",
             "autoload": {
-                "psr-4": {
-                    "Darkterminal\\TursoHttp\\": "src/"
-                },
                 "files": [
                     "src/core/helpers.php"
-                ]
+                ],
+                "psr-4": {
+                    "Darkterminal\\TursoHttp\\": "src/"
+                }
             },
-            "scripts": {
-                "test": [
-                    "./vendor/bin/pest"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -45,15 +47,17 @@
                 }
             ],
             "description": "The TursoHTTP library is a PHP wrapper for Turso HTTP Database API",
+            "support": {
+                "issues": "https://github.com/darkterminal/turso-http/issues",
+                "source": "https://github.com/darkterminal/turso-http/tree/v2.5.0"
+            },
             "funding": [
                 {
-                    "type": "github",
-                    "url": "https://github.com/sponsors/darkterminal"
+                    "url": "https://github.com/sponsors/darkterminal",
+                    "type": "github"
                 }
             ],
-            "transport-options": {
-                "relative": false
-            }
+            "time": "2024-08-14T14:42:33+00:00"
         },
         {
             "name": "graham-campbell/result-type",

@@ -2,5 +2,12 @@
 
 require_once __DIR__ . '/vendor/autoload.php';
 
-$db = useDB();
-echo $db->version() . PHP_EOL;
+$builder = useQueryBuilder();
+$builder->insert([
+    'name' => 'Sarah Wilson',
+    'email' => 'sarah.wilson@example.com',
+    'age' => 29,
+    'address' => '456 Elm St, 23456, CA',
+    'state' => 'INA',
+    'status' => 'active'
+]);
