@@ -13,7 +13,7 @@
 - [x] 012 - Turso PHP HTTP SDK - Membuat Sample Data
 - [x] 013 - Turso PHP HTTP SDK - Update Turso CLI (Fix Migrasi Data)
 - [x] 014 - Turso PHP HTTP SDK - Macam-macam Cara Membaca Data dari Tabel (Raw SQL & Query Builder)
-- [ ] 015 - Turso PHP HTTP SDK - Sort Data dari Tabel (Raw SQL & Query Builder)
+- [x] 015 - Turso PHP HTTP SDK - Sort Data dari Tabel (Raw SQL & Query Builder)
 - [ ] 016 - Turso PHP HTTP SDK - Tidak Menampilkan Data yang Sama dari Tabel (Raw SQL & Query Builder)
 - [ ] 017 - Turso PHP HTTP SDK - Menggunakan WHERE clause (Raw SQL & Query Builder)
 - [ ] 018 - Turso PHP HTTP SDK - Membatasi Tampilan Data (Raw SQL & Query Builder)

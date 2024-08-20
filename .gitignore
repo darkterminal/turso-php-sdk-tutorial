@@ -3,3 +3,4 @@ access_keys/
 .vscode/
 .env
 *.db*
+title.php
